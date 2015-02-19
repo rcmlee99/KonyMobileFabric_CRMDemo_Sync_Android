@@ -30,10 +30,13 @@ AppUtils.java:
 	
 	//contact Integration service
 	public static String CONTACT_INTEGRATION_SERVICE="SForceContact";
+	
 	//Opportunity Integration service
 	public static String OPPORTUNITY_INTEGRATION_SERVICE="SForceOpportunity";
+	
 	//Account Integration Service
 	public static String ACCOUNT_INTEGRATION_SERVICE="SForceAccount";
+	
 	//Lead Integration service
 	public static String LEAD_INTEGRATION_SERVICE="SForceLead";
 	
