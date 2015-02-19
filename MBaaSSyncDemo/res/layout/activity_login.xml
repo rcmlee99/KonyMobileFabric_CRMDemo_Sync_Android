@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<ImageView android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:scaleType="centerCrop"
+    android:src="@drawable/crm_login_b"/>
+
+<RelativeLayout
+ 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/login"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="60dp"
+        android:text="SalesForce CRM"
+        android:textColor="@color/white"
+        android:paddingBottom="10dp"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/userid"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView1"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/topround"
+        android:ems="10"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="20sp" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/userid"
+        android:background="@drawable/bottomround"
+        android:ems="10"
+        android:singleLine="true"
+        android:inputType="textPassword"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/button"
+        android:onClick="validate"
+        android:text="@string/login"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/poweredbyva" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/help" />
+
+    
+        <requestFocus />
+  
+
+</RelativeLayout>
+</RelativeLayout>
