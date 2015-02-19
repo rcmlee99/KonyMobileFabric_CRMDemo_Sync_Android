@@ -26,7 +26,16 @@ AppUtils.java:
 	public static String SERVICE_URL="<Enter Your KonyMobileFabric Service-URL>";
 	
 	 //salesforce Provider/Identity Service name
-	public static String PROVIDER="<Enter Your KonyMobileFabric App IDentity Service Name>";
+	public static String IDENTITY_PROVIDER="<Enter Your KonyMobileFabric App IDentity Service Name>";
+	
+	//contact Integration service
+	public static String CONTACT_INTEGRATION_SERVICE="SForceContact";
+	//Opportunity Integration service
+	public static String OPPORTUNITY_INTEGRATION_SERVICE="SForceOpportunity";
+	//Account Integration Service
+	public static String ACCOUNT_INTEGRATION_SERVICE="SForceAccount";
+	//Lead Integration service
+	public static String LEAD_INTEGRATION_SERVICE="SForceLead";
 	
 	// same as salesforce username and password+SecurityToken - Auto populated in Login Screen
 	public static String SFUSER="<Enter Your SalesForce Account Username>";
