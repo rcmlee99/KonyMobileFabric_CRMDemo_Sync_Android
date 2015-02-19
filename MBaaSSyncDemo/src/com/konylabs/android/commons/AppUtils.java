@@ -33,27 +33,24 @@ public class AppUtils {
 	static List<Contact> contactList=null;
 	public static String authHeader=null;
 	// salesforce appkey
-	public static String APPKEY="36ec426e04c1fc18c3ec4b43e68f9037";
+	public static String APPKEY="<Enter Your KonyMobileFabric App Key>";
 	//salesforce app secret
-	public static String APPSECRET="981b9ab4ba03e795de15e4650c31ce6a";
+	public static String APPSECRET="<Enter Your KonyMobileFabric App Secret>";
 	//salesforce service url
-	public static String SERVICE_URL="https://100003520.auth.konycloud.com/appconfig";
-	//salesforce username and password
-	//public static String USERNAME="sreenivasn@gmail.com";
-	//public static String PASSWORD="Kony@(877uJ8SgCQtfWM8h64QgzSUJxu";
+	public static String SERVICE_URL="<Enter Your KonyMobileFabric Service-URL>";
 	//salesforce Provider
-	public static String IDENTITY_PROVIDER="SForceIdentity";
+	public static String IDENTITY_PROVIDER="<Enter Your KonyMobileFabric App IDentity Service Name>";
 	//contact Integration service
-	public static String CONTACT_INTEGRATION_SERVICE="SForceContact";
+	public static String CONTACT_INTEGRATION_SERVICE="<Enter Your KonyMobileFabric App contact Integration Service Name>";
 	//Opportunity Integration service
-	public static String OPPORTUNITY_INTEGRATION_SERVICE="SForceOpportunity";
+	public static String OPPORTUNITY_INTEGRATION_SERVICE="<Enter Your KonyMobileFabric App opportunity Integration Service Name>";
 	//Account Integration Service
-	public static String ACCOUNT_INTEGRATION_SERVICE="SForceAccount";
+	public static String ACCOUNT_INTEGRATION_SERVICE="<Enter Your KonyMobileFabric App account Integration Service Name>";
 	//Lead Integration service
-	public static String LEAD_INTEGRATION_SERVICE="SForceLead";
+	public static String LEAD_INTEGRATION_SERVICE="<Enter Your KonyMobileFabric App lead Integration Service Name>";
 	//same as salesforce usernam and password
-	public static String SFUSER="sreenivasn@gmail.com";
-	public static String SFPASSWORD="Kony@(877uJ8SgCQtfWM8h64QgzSUJxu";
+	public static String SFUSER="<Enter Your SalesForce Account Username>";
+	public static String SFPASSWORD="<Enter Your SalesForce Account Password+SecurityToken>";
 	//GCM sender id or project id that you got from gogole app console
 	private final static String SENDER_ID = "<Enter Your GCM Sender/Project ID>";
 	
